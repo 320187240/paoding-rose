@@ -247,6 +247,7 @@
 
     <!-- 插件配置 -->
     <build>
+        <pluginManagement>
         <plugins>
             <!-- maven-resources-plugin -->
             <plugin>
@@ -328,7 +329,7 @@
                 </executions>
             </plugin>
         </plugins>
-
+        </pluginManagement>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
